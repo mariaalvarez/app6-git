@@ -8,7 +8,7 @@
    <name> app6 Batalla de Puebla </name>  
    
    <description>  
-     Aplicacion que muestra sobre la Batalla de Puebla
+     Aplicacion se muestra sobre la Batalla de Puebla
    </description>  
    
    <author href="https://build.phonegap.com" email="vickypalvarez17@gmail.com">  
@@ -33,14 +33,15 @@
 <!-- <plugin name="cordova-plugin-geolocation" source="npm" /> --> 
    <!-- Third party plugins -->  
   
-    <!-- Colocar icono app -->
-
-<icon src="res/android/mdpi.png" />
-  
-</widget>
+   
 <!--para accesar paginas en internet-->
 <allow-intent href="https://*/*/*"/>
 <acces origin="https://*/*/*"/>
 <allow-intent href="http://*/*/*"/>
 <acces origin="http://*/*/*"/>
 <plugin name="cordova-plugin-whitelist" source="npm"/>
+ <!-- Colocar icono app -->
+
+<icon src="res/android/mdpi.png" />
+  
+</widget>
